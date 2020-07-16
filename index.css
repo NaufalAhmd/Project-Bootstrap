@@ -1,0 +1,39 @@
+.jumbotron img{
+    width: 200px;
+}
+
+.row, .about, .portofolio, .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width: 250px;
+    border-top: 3px solid #999999;
+}
+
+section.contact{
+    padding: 32px 0;
+}
+
+section{
+    min-height: 600px;
+}
+
+.portofolio{
+    background-color: #eeeeee;
+}
+
+.thumbnail img{
+    margin-top: 20px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    padding: 24px;
+}
